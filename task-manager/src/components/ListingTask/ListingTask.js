@@ -49,11 +49,19 @@ class ListingTask extends Component {
       content: event.target.content.value,
       priority: event.target.priority.value,
       date: event.target["due-date"].value,
+
     };
     axios
       .post("http://localhost:56789/tasks", newTask)
       .then((response) => {
         this.sortTasksByCategory(response.data);
+        event.target.category.value = ""
+        event.target.content.value = ""
+        event.target.priority.value = ""
+        event.target['due-date'].value = ""
+        this.setState({
+          addButtonClicked: false
+        })
       })
       .catch((error) => {
         console.log(error);
@@ -83,7 +91,7 @@ class ListingTask extends Component {
     return (
       <div className="main">
         <button
-          className="main__add-button"
+          className="main__add-button btn"
           onClick={() => {
             this.setState((state) => ({
               addButtonClicked: !state.addButtonClicked,

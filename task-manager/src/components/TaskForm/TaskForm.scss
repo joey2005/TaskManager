@@ -1,8 +1,7 @@
 .form {
   box-shadow: 0 0 10px grey;
-  background-color: white;
+  background-color: rgba(#ffffff, $alpha: 0.8);
   width: 300px;
-  height: 420px;
   display: inline-block;
   border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
   display: flex;
@@ -14,12 +13,12 @@
     font-size: 1.2rem;
     font-weight: 700;
     margin-top: 2rem;
-    color: #748194;
+    color: #00458B;
   }
   &__input-container {
     display: flex;
     flex-direction: column;
-    margin: 1.5rem;
+    margin: 1rem 1rem 0 1rem;
   }
   &__input-content {
     margin-top: 0.5rem;
@@ -29,30 +28,15 @@
     margin: 0 35px 20px;
     height: 35px;
     padding: 6px 15px;
-    border-radius: 5px;
+    border-radius: 1rem;
     outline: none;
     border: none;
     background: #f6f7f9;
     color: #748194;
     font-size: 0.8rem;
   }
-
   &__button {
-    font-weight: bold;
-    width: 230px;
-    margin: 0 35px 20px;
-    height: 45px;
-    padding: 6px 15px;
-    border-radius: 5px;
-    outline: none;
-    border: none;
-    background: #ee9ba3;
-    color: white;
-    font-size: 14px;
-    transition: ease-in 0.1s;
-    &:hover {
-      cursor: pointer;
-      background-color: #e24c5b;
-    }
+    width: 14.375rem;
+    margin-bottom: 1rem;
   }
 }

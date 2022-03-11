@@ -31,7 +31,7 @@ function TaskForm(props) {
             className="form__input-content"
           ></input>
         </div>
-        <button className="form__button" type="submit">
+        <button className="form__button btn" type="submit">
           Submit new task
         </button>
       </form>
