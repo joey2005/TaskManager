@@ -1,0 +1,44 @@
+.tasks {
+  margin: 0.4rem;
+  width: 20%;
+
+  &__container {
+    border: solid 0.1rem black;
+    border-radius: 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  &__category {
+    padding: 0.4rem;
+    margin: 0.4rem;
+  }
+}
+.task {
+  width: 95%;
+  padding: 0.4rem;
+  margin: 0.4rem;
+  border: solid 0.1rem rgb(0, 0, 0);
+  border-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  &__content {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+  }
+  &__priority {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+  }
+  &__date {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+  }
+  &__button {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+  }
+}

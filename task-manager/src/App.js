@@ -1,9 +1,13 @@
-import './App.scss';
+import "./App.scss";
+import ListingTask from "./components/ListingTask/ListingTask";
 
 function App() {
   return (
     <div className="App">
-      <h1>Pair-Programmin Project</h1>
+      <header className="header">
+        <h1 className="header__title">Daily Tasks</h1>
+      </header>
+      <ListingTask />
     </div>
   );
 }

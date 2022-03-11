@@ -1,5 +1,8 @@
-.App {
+@use "./styles/partials/css-reset" as *;
+@use "./styles/partials/fonts" as *;
+
+.header {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
