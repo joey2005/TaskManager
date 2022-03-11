@@ -11,7 +11,7 @@ class ListingTask extends Component {
   sortTasksByCategory(data) {
     const categoryList = [];
     data.forEach((task) => {
-      const currentCategory = task.category;
+      const currentCategory = task.category.toLowerCase();
       let categoryExsited = false;
       for (let i = 0; i < categoryList.length; ++i) {
         if (categoryList[i].categoryName === currentCategory) {
