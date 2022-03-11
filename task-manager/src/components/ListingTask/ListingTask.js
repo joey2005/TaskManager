@@ -63,7 +63,7 @@ class ListingTask extends Component {
                         <p className="task__date">
                           {new Date(task.due).toLocaleDateString('en-US')}
                         </p>
-                        <button className="task__btton">
+                        <button className="task__button">
                           Delete
                         </button>
                       </div>

@@ -1,7 +1,18 @@
 @use "./styles/partials/css-reset" as *;
 @use "./styles/partials/fonts" as *;
-
+body {
+  font-size: 1rem;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif ;
+}
+h1 {
+  color: #00458B;
+}
+h2 {
+  text-transform: uppercase;
+}
 .header {
+  margin: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;

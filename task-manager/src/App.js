@@ -7,7 +7,7 @@ function App() {
       <header className="header">
         <h1 className="header__title">Daily Tasks</h1>
       </header>
-      <ListingTask />
+      <ListingTask/>
     </div>
   );
 }
