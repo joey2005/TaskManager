@@ -3,23 +3,24 @@
   width: 20%;
 
   &__container {
-    border: solid 0.1rem black;
     border-radius: 0.4rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: #99DDFF;
   }
   &__category {
     padding: 0.4rem;
     margin: 0.4rem;
+    color: #00458B;
   }
 }
 .task {
+  background-color: #99DDFF;
   width: 95%;
   padding: 0.4rem;
   margin: 0.4rem;
-  border: solid 0.1rem rgb(0, 0, 0);
   border-radius: 0.4rem;
   display: flex;
   align-items: center;
@@ -38,6 +39,12 @@
     margin-bottom: 0.2rem;
   }
   &__button {
+    background-color: #99DDFF;
+    color: white;
+    border: white 2px solid;
+    padding: 0 1rem;
+    height: 2rem;
+    border-radius: 1rem;
     margin-top: 0.2rem;
     margin-bottom: 0.2rem;
   }
