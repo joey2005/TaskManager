@@ -1,9 +1,9 @@
 import "./TaskForm.scss";
 
-function TaskForm() {
+function TaskForm(props) {
   return (
     <>
-      <form className="form">
+      <form className="form" onSubmit={props.handleAdd}>
         <h2 className="form__heading">Create a new task</h2>
         <div className="form__input-container">
           <input
