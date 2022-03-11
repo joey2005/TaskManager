@@ -1,5 +1,6 @@
 import "./App.scss";
 import ListingTask from "./components/ListingTask/ListingTask";
+import TaskForm from "./components/TaskForm/TaskForm";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <h1 className="header__title">Daily Tasks</h1>
       </header>
       <ListingTask />
+      <TaskForm />
     </div>
   );
 }
